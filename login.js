@@ -8,7 +8,7 @@ function login() {
 
     if (email == "user@gmail.com" && password == "mypassword") {
         window.location.href = "home.html";
-        
+        console.log('login')
     }
     else {
         alert("Invalid Email and Password");
