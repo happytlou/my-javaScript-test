@@ -1,13 +1,18 @@
 
 
 function login() {
-    var email = document.forms["myForm"]["email"].value;
-    var password = document.forms["myForm"]["password"].value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    console.log(password)
 
-    if (email=="user@gmail.com" && password=="mypassword") {
-        window.location.href="home.html";
+
+    if (email == "user@gmail.com" && password == "mypassword") {
+        window.location.href = "home.html";
+        
     }
     else {
         alert("Invalid Email and Password");
     }
+
+
 }

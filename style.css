@@ -8,5 +8,6 @@ h1 {
 
 nav {
     text-align: center;
-    background-color: rgb(129, 209, 255)
+    background-color: rgb(129, 209, 255);
+    border-radius: 100%;
 }
