@@ -10,7 +10,9 @@ function login() {
         window.location.href = "home.html";
 
     }
-    
+    else {
+        alert("Invalid Email and Password");
+    }
 
 
 }  
