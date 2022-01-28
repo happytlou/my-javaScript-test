@@ -6,3 +6,8 @@ h1 {
     text-align: center;
 }
 
+nav {
+    text-align: center;
+    background-color: rgb(129, 209, 255);
+    border-radius: 100%;
+}

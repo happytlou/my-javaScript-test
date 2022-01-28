@@ -10,9 +10,12 @@ function login() {
         window.location.href = "home.html";
 
     }
-    else {
-        alert("Invalid Email and Password");
+    if (email == "") {
+        alert("email cannot be empty");
+        return;
     }
 
+    
 
-}  
+
+} 
