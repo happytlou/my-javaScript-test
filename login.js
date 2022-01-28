@@ -15,7 +15,10 @@ function login() {
         return;
     }
 
-    
+    if (password == "") {
+        alert("password cannot be empty");
+        return;
+    }
 
 
 } 
